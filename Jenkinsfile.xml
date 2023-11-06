@@ -1,4 +1,4 @@
-<filetype binary="false" description="Jenkinsfile support" name="Jenkinsfile">
+<filetype binary="false" description="Jenkinsfile/Groovy Support" name="Jenkinsfile">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="//" />
@@ -13,12 +13,13 @@
       <option name="LINE_COMMENT_AT_START" value="true" />
     </options>
     <keywords keywords="&quot;&quot;&quot;;def;else;if;import;return" ignore_case="true" />
-    <keywords2 keywords="field;library;node;parallel;stage;string" />
+    <keywords2 keywords="field;library;node;parallel;stage;string;pipeline;agent;environment;steps;stages;step;withCredentials;script;post;always;success;failure;aborted;unstable" />
     <keywords3 keywords="print;sh" />
     <keywords4 keywords="catch;finally;try" />
   </highlighting>
   <extensionMap>
     <mapping pattern="Jenkinsfile" />
     <mapping pattern="Jenkinsfile*" />
+    <mapping pattern="*.groovy"
   </extensionMap>
 </filetype>
